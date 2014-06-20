@@ -2,6 +2,7 @@
 /**
  * Move Posts
  * Copyright 2011 Starpaul20
+ * Translate By AliReza_Tofighi - http://my-bb.ir
  */
 
 // Disallow direct access to this file for security reasons
@@ -18,8 +19,8 @@ $plugins->add_hook("showthread_start", "moveposts_lang");
 function moveposts_info()
 {
 	return array(
-		"name"				=> "Move Posts",
-		"description"		=> "Allows moderators to move posts from one thread to another.",
+		"name"				=> "انتقال ارسال‌ها",
+		"description"		=> "به مدیران اجازه می‌دهد تا ارسالی را از یک موضوع به موضوع دیگری منتقل کنند.<br /> ترجمه‌شده توسط: <a href=\"http://my-bb.ir\" target=\"_blank\">AliReza_Tofighi</a>",
 		"website"			=> "http://galaxiesrealm.com/index.php",
 		"author"			=> "Starpaul20",
 		"authorsite"		=> "http://galaxiesrealm.com/index.php",
